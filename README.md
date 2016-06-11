@@ -1,9 +1,25 @@
 Fernly - Fernvale Reversing OS
 ========================================
 
-Fernly is a simple operating system designed for use in the reverse engineering
-of the Fernvale CPU.  It will likely be disposed of when the system has been
-understood well enough to implement a full operating system.
+This is a project to reverse-engineer the MTK2502, MTK6260, MTK6261, and
+related SoCs from Mediatek. These chips are often found in cheap Chinese-brand
+dumbphones and smartwatches, and are also used in the
+[Fernvale](http://shop.sysmocom.de/products/fernvale-mt6260-reverse-engineering-development-kit-dvt2)
+and [LinkIt](https://www.seeedstudio.com/item_list.html?category=18)
+development boards. This project is not affiliated with Mediatek in any way.
+
+This project primarily consists of the Fernly OS, a trivial operating system
+designed for experimentation and reverse engineering of these Mediatek chips.
+
+
+Important links
+---------------
+
+ -  [Original blog post](http://www.bunniestudios.com/blog/?p=4297)
+ -  [Forums](http://www.kosagi.com/forums/index.php)
+ -  [Port of NuttX OS to MTK6260](https://github.com/sutajiokousagi/fernvale-nuttx)
+ -  [Port of Fernly OS to MTK2502](https://github.com/mandl/fernly)
+ -  [Port of Fernly OS to MTK6261](https://github.com/isogashii/fernly/tree/fernly6261/)
 
 
 Setting up cross compilation
