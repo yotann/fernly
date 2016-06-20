@@ -352,7 +352,6 @@ int fernvale_cmd_send_fd(int fd, uint32_t addr, int binfd)
 	if (response != 0)
 		printf("!! First response is 0x%04x, not 0 !!\n", response);
 
-	bfr[size - 1] ^= 0xff;
 	response = write(fd, bfr, size);
 	if (response != size) {
 		if (response == -1)
